@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap");
+/*@import url('//basehold.it/24');*/
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* stylelint-disable */
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}html,.stylelint{line-height:1}body,.stylelint{line-height:inherit}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+/* stylelint-enable */
+
+/* Begin site styles below */
+
+html {
+  font-family: Poppins, "Hoefler Text", Georgia, "Times New Roman", Times, Roman, serif;
+  font-size: 1.125em; /* 20.25/18 = 1.125 */
+  line-height: 2em; /* 36/18 = 2 */
+  padding: 0.8888888888888888em; /* 16/18 = 0.8888888888888888 */
+  background: #F08080;
+  /*color: light coral;*/
+}
+
+body {
+  margin: 1em; /* 18/18 = 1 */
+  padding: 1em; /* 18/18 = 1 */
+  background-color: rgb(250, 250, 250);
+}
+
+nav {
+  flex-wrap: wrap;
+  list-style-type: none;
+  text-align: center;
+  margin: 0 auto;
+  display: table;
+  background: #F08080;
+
+}
+
+nav a {
+  flex: 1 12.5em; /* 225/18 = 12.5 */
+  background-color: rgb(0, 102, 204);
+  color: black;
+  border-radius: 2em; /* 36/18 = 2 */
+  margin: 1em; /* 18/18 = 1 */
+  max-width: 5em;  /* 90/18 = 5 */
+  padding-right: 1em; /* 18/18 = 1 */
+  padding-left: 1em; /* 18/18 = 1 */
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 200%;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 1.3888888888888888em; /* 25/18 = 1.3888888888888888 */
+  flex: 1 12.5em; /* 225/18 = 12.5 */
+  background: #F08080;
+  border-radius: 2em; /* 36/18 = 2 */
+  margin: 1em; /* 18/18 = 1 */
+  max-width: 5em; /* 90/18 = 5 */
+  padding-right: 1em; /* 18/18 = 1 */
+  padding-left: 1em; /* 18/18 = 1 */
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 1.5555555555555556em; /* 28/18 = 1.5555555555555556 */
+  flex: 1 12.5em; /* 225/18 = 12.5 */
+  background-color: rgb(0, 102, 204);
+  margin: 1em; /* 18/18 = 1 */
+  max-width: 10em; /* 180/18 = 10 */
+  padding-right: 1em; /* 18/18 = 1 */
+  padding-left: 1em; /* 18/18 = 1 */
+}
+
+h4 {
+  font-weight: bold;
+  padding-top: 1.5em; /* 27/18 = 1.5 */
+}
+
+header {
+  background: #F08080;
+  padding: 2em; /* 36/18 = 2 */
+  line-height: 200%;
+  text-align: center;
+}
+
+ul.acheivements, ul.work-skills, ul.valley-tool, ul.es, ul.phs, ul.iit {
+  list-style-type: disc;
+  padding-left: 0.75em; /* 13.5/18 = 0.75 */
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  border: 0.3333333333333333em solid #F08080; /* 6/18 = 0.3333333333333333 */
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+figcaption {
+  font-weight: bold;
+  text-align: center;
+  font-size: 0.75em; /* 13.5/18 = 0.75 */
+}
+
+footer {
+  padding-top: 1em; /* 18/18 = 1 */
+  padding-bottom: 1em; /* 18/18 = 1 */
+  font-size: 50%;
+  font-weight: bold;
+  text-align: center;
+  background: #F08080;
+}
+
+/* media */
+@media screen and (min-width: 8.333333333333334em) { /* 150/18 = 8.333333333333334 */
+  html {
+    font-size: 0.5em; /* 9/18 = 0.5 */
+  }
+}
+
+@media screen and (min-width: 13.88888888888889em) { /* 250/18 = 13.88888888888889 */
+  html {
+    font-size: 0.75em; /* 13.5/18 = 0.75 */
+  }
+}
+
+@media screen and (min-width: 27.77777777777778em) { /* 500/18 = 27.77777777777778 */
+  html {
+    font-size: 1em; /* 18/18 = 1*/
+  }
+}
+
+@media screen and (min-width: 44.44444444444444em) { /* 800/18 = 44.44444444444444 */
+  html {
+    font-size: 1.15em; /* 18.9/18 = 1.15 */
+  }
+}
+
+@media screen and (min-width: 61.111111111111114em) { /* 1100/18 = 61.111111111111114 */
+  html {
+    font-size: 1.5em; /* 27/18 = 1.5 */
+  }
+}
+/* media */
